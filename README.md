@@ -1,2 +1,2 @@
 # TimCoRetailManager
-Retail Management
+A retail Management
