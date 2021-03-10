@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Net.Http.Headers;
 using System.Configuration;
 using TRMDataManager.Models;
+using TRMDesktopUI.Models;
 
 namespace TRMDesktopUI.Helpers
 {
