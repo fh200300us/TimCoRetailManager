@@ -1,11 +1,13 @@
 ﻿using System.Threading.Tasks;
+using TRMDesktopUI.Library.Models;
 //using TRMDataManager.Models;
-using TRMDesktopUI.Models;
+//using TRMDesktopUI.Models;
 
-namespace TRMDesktopUI.Helpers
+namespace TRMDesktopUI.Library.Api
 {
     public interface IAPIHelper
     {
         Task<AuthenticatedUser> Authenticate(string username, string password);
+        Task GetLoggedInUserInfo(string token);
     }
 }

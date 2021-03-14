@@ -86,8 +86,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Helpers\APIHelper.cs" />
-    <Compile Include="Helpers\IAPIHelper.cs" />
     <Compile Include="Helpers\PasswordBoxHelper.cs" />
     <Compile Include="Models\AuthenticatedUser.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
@@ -152,6 +150,10 @@
     <ProjectReference Include="..\TRMDataManager\TRMDataManager.csproj">
       <Project>{456465a1-ed96-4a9f-a99e-7fbc4fc921b1}</Project>
       <Name>TRMDataManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TRMDesktopUI.Library\TRMDesktopUI.Library.csproj">
+      <Project>{b25cbffa-8e40-4d80-bffc-6146ed3480c4}</Project>
+      <Name>TRMDesktopUI.Library</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
