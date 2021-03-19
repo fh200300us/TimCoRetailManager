@@ -36,9 +36,9 @@ namespace TRMDesktopUI.ViewModels
             }
         }
 
-        private string  _itemQuantity;
+        private int  _itemQuantity;
 
-        public string  ItemQuantity
+        public int  ItemQuantity
         {
             get { return _itemQuantity; }
             set 
@@ -50,11 +50,12 @@ namespace TRMDesktopUI.ViewModels
 
         public string SubTotal
         {
-            get 
+            get
             {
                 return "$0.00";
             }
 
+        }
 
 
             public string Total
@@ -73,7 +74,7 @@ namespace TRMDesktopUI.ViewModels
             }
         }
 
-        pulic bool CanAddToCart
+        public bool CanAddToCart
         {
             get
             {
@@ -90,7 +91,7 @@ namespace TRMDesktopUI.ViewModels
 
 
 
-        pulic bool CanRemoveFromCart
+        public bool CanRemoveFromCart
         {
             get
             {
@@ -105,7 +106,7 @@ namespace TRMDesktopUI.ViewModels
 
         }
 
-        pulic bool CanCheckOut
+        public bool CanCheckOut
         {
             get
             {
